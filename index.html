@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VA STATYBA — Statybos įmonė Alytuje</title>
+  <meta name="description" content="UAB „VA STATYBA“ – Alytuje įsikūrusi statybos įmonė, nuo 2007 m. visoje Lietuvoje vykdanti generalinės rangos, projektavimo, bendrosios ir specialiosios statybos bei kultūros paveldo darbus.">
+  <meta name="theme-color" content="#0c0d0e">
+  <meta property="og:title" content="VA STATYBA — Statome tai, kas išlieka">
+  <meta property="og:description" content="Generalinė ranga, projektavimas, ypatingi statiniai ir kultūros paveldas visoje Lietuvoje.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Pereiti prie turinio</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="VA STATYBA">
+        <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <rect width="48" height="48" rx="6" fill="currentColor" class="logo__bg"/>
+          <polygon class="logo__fg" points="3,11 9.5,11 14,29 18.5,11 25,11 17.5,37 10.5,37"/>
+          <polygon class="logo__fg" points="22.5,37 30,11 37,11 44.5,37 38.5,37 33.5,19 28.5,37"/>
+          <rect fill="#ff5b1f" x="30" y="28" width="7" height="3.6"/>
+        </svg>
+        <span class="logo__text">VA&nbsp;STATYBA</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Pagrindinė navigacija">
+        <a href="#about" data-i18n="nav.about">Apie mus</a>
+        <a href="#services" data-i18n="nav.services">Paslaugos</a>
+        <a href="#projects" data-i18n="nav.projects">Projektai</a>
+        <a href="#process" data-i18n="nav.process">Procesas</a>
+        <a href="#contact" data-i18n="nav.contact">Kontaktai</a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang" role="group" aria-label="Kalba / Language">
+          <button type="button" class="lang__btn is-active" data-lang="lt">LT</button>
+          <button type="button" class="lang__btn" data-lang="en">EN</button>
+        </div>
+        <a href="#contact" class="btn btn--accent btn--sm header__cta" data-i18n="nav.cta">Aptarti projektą</a>
+        <button type="button" class="burger" id="burger" aria-label="Meniu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__scene" id="heroScene" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="eyebrow reveal"><span class="dot"></span><span data-i18n="hero.eyebrow">Generalinė ranga · Nuo 2007 m.</span></p>
+        <h1 class="hero__title reveal" data-i18n="hero.title">Statome tai,<br><em>kas išlieka.</em></h1>
+        <p class="hero__lead reveal" data-i18n="hero.lead">Alytuje įsikūrusi statybos įmonė, visoje Lietuvoje vykdanti generalinės rangos, projektavimo, bendrosios ir specialiosios statybos bei kultūros paveldo darbus.</p>
+        <div class="hero__actions reveal">
+          <a href="#projects" class="btn btn--accent">
+            <span data-i18n="hero.cta1">Peržiūrėti projektus</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--ghost" data-i18n="hero.cta2">Susisiekti</a>
+        </div>
+      </div>
+
+      <div class="container hero__meta">
+        <span class="mono">54.3963° N — 24.0459° E</span>
+        <span class="mono hide-sm" data-i18n="hero.loc">Alytus, Lietuva</span>
+        <a href="#about" class="scroll-hint mono"><span data-i18n="hero.scroll">Slinkite</span><i></i></a>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" id="marquee">
+        <span data-i18n="mq.1">Generalinė ranga</span>
+        <span data-i18n="mq.2">Projektavimas</span>
+        <span data-i18n="mq.3">Ypatingi statiniai</span>
+        <span data-i18n="mq.4">Kultūros paveldas</span>
+        <span data-i18n="mq.5">Renovacija</span>
+        <span data-i18n="mq.6">Inžineriniai tinklai</span>
+        <span data-i18n="mq.7">Gyvenamieji pastatai</span>
+        <span data-i18n="mq.8">Pramoniniai objektai</span>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT + STATS ============ -->
+    <section class="section section--paper about" id="about">
+      <div class="container">
+        <div class="stats">
+          <div class="stat reveal">
+            <span class="stat__num" data-count="2007" data-plain>2007</span>
+            <span class="stat__label" data-i18n="stats.1">Įkūrimo metai</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num"><span data-count="100">100</span><sup>+</sup></span>
+            <span class="stat__label" data-i18n="stats.2">Kvalifikuotų darbuotojų</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num"><span data-count="18" id="yearsCount">18</span><sup>+</sup></span>
+            <span class="stat__label" data-i18n="stats.3">Metų patirties</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num"><span data-count="3">3</span></span>
+            <span class="stat__label" data-i18n="stats.4">ISO sertifikatai</span>
+          </div>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__left">
+            <p class="label reveal"><span data-i18n="about.label">Apie mus</span></p>
+            <h2 class="h2 reveal" data-i18n="about.title">Patikimas partneris nuo pirmojo brėžinio iki rakto įteikimo.</h2>
+            <figure class="about__figure reveal">
+              <div class="about__art" id="aboutScene" aria-hidden="true"></div>
+              <figcaption class="mono"><span data-i18n="about.caption">Būstinė</span> — Naujoji g. 142A, Alytus</figcaption>
+            </figure>
+          </div>
+          <div class="about__right">
+            <p class="lead reveal" data-i18n="about.p1">Nuo 2007 metų VA STATYBA auga kartu su savo klientais. Šiandien tai daugiau nei 100 specialistų komanda, įgyvendinanti gyvenamosios, komercinės, pramoninės ir visuomeninės paskirties projektus visoje Lietuvoje.</p>
+            <p class="reveal" data-i18n="about.p2">Kvalifikuoti specialistai pasirūpina sklandžiu projekto parengimu, statybą leidžiančių dokumentų gavimu ir statybos užbaigimo dokumentų įforminimu – jums lieka stebėti, kaip idėja virsta pastatu.</p>
+            <ul class="checks">
+              <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="about.c1">Teisė būti ypatingų statinių statybos rangovu</span></li>
+              <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="about.c2">Darbai kultūros paveldo objektuose ir jų apsaugos zonose</span></li>
+              <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="about.c3">ISO 9001, ISO 14001 ir ISO 45001 sertifikuota vadyba</span></li>
+              <li class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="about.c4">Visas ciklas – nuo projektavimo iki objekto pridavimo</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section--dark services" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="label reveal"><span data-i18n="services.label">Paslaugos</span></p>
+          <h2 class="h2 reveal" data-i18n="services.title">Visas statybos ciklas – vienose rankose.</h2>
+        </div>
+
+        <div class="services__grid">
+          <ol class="svc-list" id="svcList"><!-- rendered by JS --></ol>
+          <div class="svc-visual" aria-hidden="true">
+            <div class="svc-visual__frame">
+              <div class="svc-visual__scene" id="svcScene"></div>
+              <div class="svc-visual__corner tl"></div><div class="svc-visual__corner tr"></div>
+              <div class="svc-visual__corner bl"></div><div class="svc-visual__corner br"></div>
+              <span class="svc-visual__tag mono" id="svcTag">01 / 06</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section--paper projects" id="projects">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="label reveal"><span data-i18n="projects.label">Projektai</span></p>
+            <h2 class="h2 reveal" data-i18n="projects.title">Atrinkti darbai</h2>
+          </div>
+          <div class="filters reveal" id="filters" role="tablist" aria-label="Filtruoti projektus"><!-- JS --></div>
+        </div>
+        <div class="proj-grid" id="projGrid"><!-- rendered by JS --></div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section--paper process" id="process">
+      <div class="container">
+        <div class="section__head">
+          <p class="label reveal"><span data-i18n="process.label">Procesas</span></p>
+          <h2 class="h2 reveal" data-i18n="process.title">Aiškus kelias iki rezultato.</h2>
+        </div>
+        <div class="steps" id="steps">
+          <div class="steps__line" aria-hidden="true"><i id="stepsFill"></i></div>
+          <article class="step reveal">
+            <span class="step__n mono">01</span>
+            <h3 data-i18n="process.s1.t">Konsultacija</h3>
+            <p data-i18n="process.s1.d">Išklausome jūsų poreikius, įvertiname sklypą ar esamą pastatą ir pasiūlome optimalius sprendimus.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__n mono">02</span>
+            <h3 data-i18n="process.s2.t">Projektavimas ir leidimai</h3>
+            <p data-i18n="process.s2.d">Parengiame projektą ir sąmatą, gauname visus statybą leidžiančius dokumentus.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__n mono">03</span>
+            <h3 data-i18n="process.s3.t">Statyba</h3>
+            <p data-i18n="process.s3.d">Darbus vykdome pagal suderintą grafiką, nuolat informuojame apie eigą ir kontroliuojame kokybę.</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__n mono">04</span>
+            <h3 data-i18n="process.s4.t">Pridavimas</h3>
+            <p data-i18n="process.s4.d">Įforminame statybos užbaigimo dokumentus ir perduodame objektą su garantija.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUALITY ============ -->
+    <section class="section section--dark quality">
+      <div class="container">
+        <div class="quality__grid">
+          <div>
+            <p class="label reveal"><span data-i18n="quality.label">Kokybė</span></p>
+            <h2 class="h2 reveal" data-i18n="quality.title">Kokybė, kurią galima patikrinti.</h2>
+            <p class="muted reveal" data-i18n="quality.text">Įmonės veikla sertifikuota pagal tarptautinius kokybės, aplinkos apsaugos ir darbuotojų saugos standartus.</p>
+          </div>
+          <div class="badges">
+            <div class="badge reveal"><span class="badge__code">ISO 9001</span><span data-i18n="quality.b1">Kokybės vadyba</span></div>
+            <div class="badge reveal"><span class="badge__code">ISO 14001</span><span data-i18n="quality.b2">Aplinkos apsaugos vadyba</span></div>
+            <div class="badge reveal"><span class="badge__code">ISO 45001</span><span data-i18n="quality.b3">Darbuotojų sauga ir sveikata</span></div>
+            <div class="badge badge--accent reveal"><span class="badge__code" data-i18n="quality.b4t">Ypatingi statiniai</span><span data-i18n="quality.b4">Teisė būti ypatingų statinių rangovu</span></div>
+            <div class="badge reveal"><span class="badge__code" data-i18n="quality.b5t">Paveldas</span><span data-i18n="quality.b5">Kultūros paveldo objektų tvarkyba</span></div>
+            <div class="badge reveal"><span class="badge__code">LT</span><span data-i18n="quality.b6">Projektai visoje Lietuvoje</span></div>
+          </div>
+        </div>
+
+        <div class="careers reveal">
+          <div>
+            <p class="mono careers__k" data-i18n="careers.k">Karjera</p>
+            <h3 class="careers__t" data-i18n="careers.t">Kurkime kartu. Ieškome darbų vadovų, inžinierių ir meistrų.</h3>
+          </div>
+          <a class="btn btn--light" href="mailto:info@vastatyba.lt?subject=Karjera%20VA%20STATYBA">
+            <span data-i18n="careers.cta">Siųsti CV</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--paper contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="label reveal"><span data-i18n="contact.label">Kontaktai</span></p>
+          <h2 class="h2 h2--xl reveal" data-i18n="contact.title">Turite projektą? <em>Pakalbėkime.</em></h2>
+
+          <dl class="contact__list">
+            <div class="reveal">
+              <dt class="mono" data-i18n="contact.phone">Telefonas</dt>
+              <dd><a href="tel:+37031577456">+370 315 77456</a></dd>
+            </div>
+            <div class="reveal">
+              <dt class="mono" data-i18n="contact.email">El. paštas</dt>
+              <dd><a href="mailto:info@vastatyba.lt">info@vastatyba.lt</a></dd>
+            </div>
+            <div class="reveal">
+              <dt class="mono" data-i18n="contact.address">Adresas</dt>
+              <dd><a href="https://www.google.com/maps/search/?api=1&query=Naujoji+g.+142A,+Alytus" target="_blank" rel="noopener">Naujoji g. 142A,<br>LT-62175 Alytus</a></dd>
+            </div>
+            <div class="reveal">
+              <dt class="mono" data-i18n="contact.req">Rekvizitai</dt>
+              <dd class="small"><span data-i18n="contact.code">Įmonės kodas</span> 300957555<br><span data-i18n="contact.vat">PVM kodas</span> LT100003479918</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <div class="form__row">
+            <label class="field">
+              <input type="text" name="name" required autocomplete="name" placeholder=" ">
+              <span data-i18n="form.name">Vardas, pavardė</span>
+            </label>
+            <label class="field">
+              <input type="text" name="company" autocomplete="organization" placeholder=" ">
+              <span data-i18n="form.company">Įmonė</span>
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field">
+              <input type="email" name="email" required autocomplete="email" placeholder=" ">
+              <span data-i18n="form.email">El. paštas</span>
+            </label>
+            <label class="field">
+              <input type="tel" name="phone" autocomplete="tel" placeholder=" ">
+              <span data-i18n="form.phone">Telefonas</span>
+            </label>
+          </div>
+          <fieldset class="chips">
+            <legend class="mono" data-i18n="form.type">Projekto tipas</legend>
+            <label><input type="radio" name="type" value="Gyvenamasis" checked><span data-i18n="form.t1">Gyvenamasis</span></label>
+            <label><input type="radio" name="type" value="Komercinis"><span data-i18n="form.t2">Komercinis</span></label>
+            <label><input type="radio" name="type" value="Pramoninis"><span data-i18n="form.t3">Pramoninis</span></label>
+            <label><input type="radio" name="type" value="Visuomeninis"><span data-i18n="form.t4">Visuomeninis</span></label>
+            <label><input type="radio" name="type" value="Paveldas"><span data-i18n="form.t5">Paveldas</span></label>
+          </fieldset>
+          <label class="field field--area">
+            <textarea name="message" rows="4" required placeholder=" "></textarea>
+            <span data-i18n="form.msg">Trumpai apie projektą</span>
+          </label>
+          <div class="form__foot">
+            <p class="small muted" data-i18n="form.note">Atsakysime per 1 darbo dieną.</p>
+            <button type="submit" class="btn btn--accent">
+              <span data-i18n="form.send">Siųsti užklausą</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <nav class="footer__nav" aria-label="Poraštės navigacija">
+          <a href="#about" data-i18n="nav.about">Apie mus</a>
+          <a href="#services" data-i18n="nav.services">Paslaugos</a>
+          <a href="#projects" data-i18n="nav.projects">Projektai</a>
+          <a href="#contact" data-i18n="nav.contact">Kontaktai</a>
+          <a href="https://www.facebook.com/UABVASTATYBA/" target="_blank" rel="noopener">Facebook ↗</a>
+        </nav>
+        <a href="#top" class="to-top mono"><span data-i18n="footer.top">Į viršų</span> ↑</a>
+      </div>
+      <p class="footer__word" aria-hidden="true">VA STATYBA</p>
+      <div class="footer__bottom mono">
+        <span>© <span id="year">2026</span> UAB „VA STATYBA“</span>
+        <span data-i18n="footer.rights">Visos teisės saugomos</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ PROJECT MODAL ============ -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" data-close aria-label="Uždaryti">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="modal__art" id="modalArt"></div>
+      <div class="modal__body">
+        <p class="mono modal__kicker" id="modalKicker"></p>
+        <h3 class="modal__title" id="modalTitle"></h3>
+        <p class="modal__desc" id="modalDesc"></p>
+        <dl class="modal__meta" id="modalMeta"></dl>
+        <a href="#contact" class="btn btn--accent" data-close data-i18n="modal.cta">Aptarti panašų projektą</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/iso.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

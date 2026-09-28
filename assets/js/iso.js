@@ -24,23 +24,23 @@
       edge: 'rgba(12,13,14,.16)', win: '#2d3238', lit: '#2d3238',
       ground: { top: '#3a3d42', left: '#2a2c30', right: '#222428' },
       tree: '#8f9c7e', treeDark: '#6f7c60', trunk: '#5b544a',
-      accent: { top: '#ff7a4a', left: '#f4511e', right: '#c93f12' },
+      accent: { top: '#22b85e', left: '#00963f', right: '#00742f' },
       litRatio: 0
     },
     dark: {
       top: '#343942', left: '#1b1e23', right: '#252930',
-      edge: 'rgba(255,255,255,.16)', win: 'rgba(255,255,255,.07)', lit: '#ffb27a',
+      edge: 'rgba(255,255,255,.16)', win: 'rgba(255,255,255,.07)', lit: '#f3dcae',
       ground: { top: 'rgba(255,255,255,.035)', left: 'rgba(255,255,255,.02)', right: 'rgba(255,255,255,.015)' },
       tree: '#2f3a33', treeDark: '#26302a', trunk: '#3a3a3a',
-      accent: { top: '#ff7a4a', left: '#f4511e', right: '#c93f12' },
+      accent: { top: '#22b85e', left: '#00963f', right: '#00742f' },
       litRatio: 0.28
     },
     wire: {
-      top: 'rgba(255,91,31,.05)', left: 'rgba(255,255,255,.015)', right: 'rgba(255,255,255,.03)',
-      edge: 'rgba(255,255,255,.55)', win: 'rgba(255,255,255,.14)', lit: '#ff5b1f',
+      top: 'rgba(0,150,63,.06)', left: 'rgba(255,255,255,.015)', right: 'rgba(255,255,255,.03)',
+      edge: 'rgba(255,255,255,.55)', win: 'rgba(255,255,255,.14)', lit: '#1fb45a',
       ground: { top: 'rgba(255,255,255,.02)', left: 'rgba(255,255,255,.02)', right: 'rgba(255,255,255,.02)' },
       tree: 'rgba(255,255,255,.08)', treeDark: 'rgba(255,255,255,.04)', trunk: 'rgba(255,255,255,.3)',
-      accent: { top: 'rgba(255,91,31,.35)', left: 'rgba(255,91,31,.2)', right: 'rgba(255,91,31,.28)' },
+      accent: { top: 'rgba(0,150,63,.4)', left: 'rgba(0,150,63,.22)', right: 'rgba(0,150,63,.3)' },
       litRatio: 0.06
     }
   };
@@ -174,7 +174,7 @@
 
   /* ---- tower crane (line art) -------------------------------------------- */
   function crane(c, time) {
-    const col = c.color || '#ff5b1f';
+    const col = c.color || '#1fb45a';
     const { x, y, h } = c;
     const L = c.L || 10, Lc = c.Lc || 3.5, sq = 0.3;
     const th = (c.theta || 0) + (c.swing || 0) * Math.sin((time || 0) * 0.00025);

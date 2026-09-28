@@ -193,7 +193,7 @@ window.VA = (function () {
       { x: 0, y: 6, w: 4, d: 5, h: 4, win: 'ribbon', floor: 1 },
       T(7, 10.4, 0.55), T(10, 10.4, 0.55), T(13, 10.4, 0.55)
     ] },
-    { palette: 'dark', items: SCENES.manor.map((it) => (it.roof ? Object.assign({}, it, { roofA: '#ff8a57', roofB: '#d8470f' }) : it)) },
+    { palette: 'dark', items: SCENES.manor.map((it) => (it.roof ? Object.assign({}, it, { roofA: '#22b85e', roofB: '#00742f' }) : it)) },
     { palette: 'dark', items: [
       G(-1.5, -1.5, 18, 13),
       { x: 0, y: 0, w: 7, d: 9, h: 5, win: 'stripes' },

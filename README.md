@@ -21,8 +21,13 @@ assets/css/style.css  design tokens, layout, responsive rules
 assets/js/iso.js      small isometric "massing model" renderer (SVG)
 assets/js/data.js     English copy, services, projects and 3D scenes
 assets/js/main.js     language switch, hero animation, filters, modal, form
-assets/img/           logo / favicon
+assets/img/           logo.svg, logo-light.svg (for dark backgrounds), favicon.svg
 ```
+
+## Brand
+
+- Accent colour: logo green `#00963f`. It is set as `--brand` in `style.css`, with a deeper tint for buttons behind white text and a brighter one for highlights on dark sections.
+- The logo SVGs were vectorised from a small PNG. If the company has an original vector logo (AI/EPS/SVG/PDF), swap it in for the sharpest result. The header uses an inline copy in `index.html`.
 
 ## Features
 
